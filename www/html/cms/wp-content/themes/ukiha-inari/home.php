@@ -17,7 +17,7 @@
         <dl>
           <dt>由緒</dt>
           <dd>
-            昭和三十二年（一九七五）十二月、
+            昭和三十二年（一九五七）十二月、
             京都伏見、稲荷大明神を新設の城ヶ鼻
             公園内に勧請
           </dd>
@@ -165,7 +165,7 @@
             <dl>
               <dt>【駐車場】</dt>
               <dd>あり</dd>
-            <dl>
+            </dl>
           </div>
             <!-- <a class="map-link" href="//goo.gl/maps/u4TwjuHfGC7zd5ss5"> -->
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13335.358528160443!2d130.7917393!3d33.3230078!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x218dbd88e3de8c68!2z5rWu576956iy6I2356We56S-!5e0!3m2!1sja!2sjp!4v1590734911992!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>

@@ -22,4 +22,21 @@ jQuery(function ($) {
       page_top.fadeOut();
     }
   });
+
+  $(".wpcf7-form input[type='submit'], .wpcf7-form button").click(function(event) {
+      $( document ).one( "ajaxComplete", function(event, xhr, settings) {
+        var data = xhr.responseText;
+        var jsonResponse = JSON.parse(data);
+        // console.log(jsonResponse);
+        if(! jsonResponse.hasOwnProperty('into') || $('.wpcf7' + jsonResponse.into).length === 0) return;
+        // alert(jsonResponse.message);
+        $.fancybox.open(
+          '<div class="message">' + jsonResponse.message + '</div>',
+          {
+            smallBtn : true,
+            toolbar : false
+          }
+        );
+      });
+    });
 });

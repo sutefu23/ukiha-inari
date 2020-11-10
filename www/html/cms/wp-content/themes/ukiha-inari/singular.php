@@ -11,7 +11,9 @@
     <section id="page">
       <div class="lead">
         <h1><?php the_title();?></h1>
-        <time datetime="<?php the_time();?>"><?php echo DatetimeUtility::date( 'JK年n月j日', get_the_time('U'));?></time>  
+        <?php if(!is_page()):?>
+        <time datetime="<?php the_time();?>"><?php echo DatetimeUtility::date( 'JK年n月j日', get_the_time('U'));?></time>
+        <?php endif; ?>
       </div>
       <div class="content">
         <div class="inner">
